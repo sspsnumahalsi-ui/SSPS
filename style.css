@@ -1,19 +1,39 @@
-<section class="hero">
-    <div class="hero-content">
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,40,85,.75),rgba(0,40,85,.75)),
+    url("images/school.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
 
-        <h1>
-            Swami Shantanand Public School
-        </h1>
+.hero h1{
+    font-size:70px;
+    font-weight:900;
+    margin-bottom:15px;
+}
 
-        <h2>
-            (Nauma, Halsi, Lakhisarai)
-        </h2>
+.hero h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
 
-        <p>
-            Affiliated to CBSE • Excellence in Education • Character Building
-        </p>
+.hero p{
+    font-size:22px;
+    margin-bottom:30px;
+}
 
-        <a href="#about" class="btn">Explore More</a>
-
-    </div>
-</section>
+.btn{
+    background:#ffb400;
+    color:#000;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:20px;
+    font-weight:bold;
+}
